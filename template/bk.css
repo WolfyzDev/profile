@@ -1,0 +1,20 @@
+/* Modifications à apporter pour mettre le fond de ./assets/bk.png
+Voir image : https://i.imgur.com/Oo0xlug.jpeg */
+
+body {
+  /* Part : */
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg,
+      var(--color-two) 0%,
+      var(--color-five) 100%);
+
+  /* Nouveau :  */
+  background-color: white;
+  /* Change background color to white */
+  background-image: url('./assets/bk.png');
+  /* Replace with the URL or relative path of your image */
+  background-size: cover;
+  /* Adjust how the image is displayed */
+  background-repeat: no-repeat;
+
+}
