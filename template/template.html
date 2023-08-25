@@ -27,6 +27,14 @@
         <span>French Student</span>
       </div>
     </div>
+    <div class="status">
+      <p>My Status</p>
+      <div class="statusItems alignItems">
+        <div class="away">
+          <img height="15" width="30" src="assets/collection/leaf.svg" /> Student
+        </div>
+      </div>
+    </div>
     <div class="Dashboard">
       <p>About Me</p>
       <div class="dashboardItem alignItems">
@@ -49,7 +57,20 @@
         </div>
       </div>
 
-      <script src="script.js">
+      <script>
+        const moreButton = document.querySelector(".moreButton");
+        const popup = document.querySelector(".popup");
+
+        moreButton.addEventListener("click", () => {
+          popup.style.display = popup.style.display === "block" ? "none" : "block";
+        });
+
+        // Close the popup when clicking outside of it
+        window.addEventListener("click", (event) => {
+          if (!popup.contains(event.target) && event.target !== moreButton) {
+            popup.style.display = "none";
+          }
+        });
       </script>
 
 </body>

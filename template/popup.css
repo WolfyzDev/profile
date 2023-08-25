@@ -1,0 +1,33 @@
+/* Popup style */
+.popup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: none;
+  }
+  
+  .popupContent {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popupContent a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .popupContent a:hover {
+    background-color: white;
+    color: black;
+  }
+  
