@@ -14,11 +14,9 @@ body {
   background-color: #d9afd9;
   color: var(--color-two);
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(
-    0deg,
-    var(--color-two) 0%,
-    var(--color-five) 100%
-  );
+  background-image: linear-gradient(0deg,
+      var(--color-two) 0%,
+      var(--color-five) 100%);
 }
 
 .card {
@@ -49,11 +47,9 @@ body {
   left: 50px;
   height: 120px;
   width: 120px;
-  background-image: radial-gradient(
-    circle farthest-corner at 92% 71.5%,
-    var(--color-three) 0%,
-    var(--color-five) 90%
-  );
+  background-image: radial-gradient(circle farthest-corner at 92% 71.5%,
+      var(--color-three) 0%,
+      var(--color-five) 90%);
 }
 
 .dotTwo {
@@ -62,11 +58,9 @@ body {
   right: 20px;
   height: 150px;
   width: 150px;
-  background-image: radial-gradient(
-    circle farthest-corner at 92% 71.5%,
-    var(--color-three) 0%,
-    var(--color-five) 90%
-  );
+  background-image: radial-gradient(circle farthest-corner at 92% 71.5%,
+      var(--color-three) 0%,
+      var(--color-five) 90%);
 }
 
 .dotThree {
@@ -75,11 +69,9 @@ body {
   right: 80px;
   height: 120px;
   width: 120px;
-  background-image: radial-gradient(
-    circle farthest-corner at 92% 71.5%,
-    var(--color-three) 0%,
-    var(--color-five) 90%
-  );
+  background-image: radial-gradient(circle farthest-corner at 92% 71.5%,
+      var(--color-three) 0%,
+      var(--color-five) 90%);
 }
 
 .dotFour {
@@ -88,11 +80,9 @@ body {
   left: 80px;
   height: 160px;
   width: 160px;
-  background-image: radial-gradient(
-    circle farthest-corner at 92% 71.5%,
-    var(--color-three) 0%,
-    var(--color-five) 90%
-  );
+  background-image: radial-gradient(circle farthest-corner at 92% 71.5%,
+      var(--color-three) 0%,
+      var(--color-five) 90%);
 }
 
 .alignItems {
@@ -106,7 +96,7 @@ body {
   border-radius: 50%;
 }
 
-.header > p {
+.header>p {
   font-weight: 600;
 }
 
@@ -129,58 +119,13 @@ body {
   font-size: 12px;
 }
 
-.status {
-  margin-top: 50px;
-}
 
-.status > p {
-  font-size: 12px;
-}
-
-.statusItems {
-  justify-content: space-evenly;
-}
-
-.away {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  background-color: var(--color-two);
-  border-radius: 30px;
-  padding: 10px 15px;
-  color: #fff;
-  font-size: 12px;
-}
-
-.atWork {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  background-color: var(--color-four);
-  border-radius: 30px;
-  padding: 10px 15px;
-  color: #fff;
-  font-size: 12px;
-  opacity: 50%;
-}
-
-.gaming {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  background: var(--color-four);
-  border-radius: 30px;
-  padding: 10px 15px;
-  color: #fff;
-  font-size: 12px;
-  opacity: 50%;
-}
 
 .dashboard {
   margin-top: 40px;
 }
 
-.dashboard > p {
+.dashboard>p {
   font-size: 12px;
 }
 
@@ -188,7 +133,7 @@ body {
   gap: 10px;
 }
 
-.itemDetails > p {
+.itemDetails>p {
   font-weight: 600;
 }
 
@@ -203,41 +148,6 @@ body {
   border-radius: 50%;
 }
 
-.actionNeed {
-  background-color: var(--color-three);
-  border-radius: 30px;
-  padding: 5px 10px;
-  color: #fff;
-  font-size: 12px;
-}
-
-.new {
-  background-color: var(--color-four);
-  border-radius: 30px;
-  padding: 5px 10px;
-  color: #fff;
-  font-size: 12px;
-}
-
-.footer {
-  margin-top: 20px;
-}
-
-.title {
-  font-size: 12px;
-}
-
-.switch {
-  color: var(--color-two);
-  font-weight: 600;
-}
-
-.logout {
-  color: var(--color-five);
-  font-weight: 600;
-}
-
-
 /* Button style */
 .moreButton {
   background-color: var(--color-two);
@@ -247,38 +157,6 @@ body {
   border-radius: 20px;
   font-weight: 600;
   cursor: pointer;
-  margin-left: auto; /* Pushes the button to the right */
-}
-
-/* Popup style */
-.popup {
-  position: absolute;
-  top: 0;
-  right: 0;
-  margin-top: 15px;
-  margin-right: 15px;
-  display: none;
-}
-
-.popupContent {
-  background-color: rgba(0, 0, 0, 0.9);
-  color: white;
-  padding: 10px;
-  border-radius: 10px;
-  width: 150px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.popupContent a {
-  display: block;
-  padding: 5px 0;
-  text-decoration: none;
-  color: white;
-  transition: color 0.3s, background-color 0.3s;
-  border-radius: 5px;
-}
-
-.popupContent a:hover {
-  background-color: white;
-  color: black;
+  margin-left: auto;
+  /* Pushes the button to the right */
 }
